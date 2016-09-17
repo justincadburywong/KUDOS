@@ -1,3 +1,6 @@
+p {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .profile-box {
   height: 32%;
   width: 32%;
@@ -22,7 +25,9 @@
 }
 
 .profile-box .prof-name {
-  color: #57D9D5;
+  /*color: #57D9D5;*/
+  color: white;
+  font-size: 20px;
   position: absolute;
   text-shadow: 1px 1px black;
   letter-spacing: 1px;
