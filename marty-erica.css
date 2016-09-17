@@ -1,0 +1,58 @@
+.profile-box {
+  height: 32%;
+  width: 32%;
+  box-shadow: 10px 10px 5px #888888;
+  border: 2px;
+  border-radius: 8px;
+  margin: 8%;
+  float: left;
+}
+
+.profile-box .home-image{
+  height: 100%;
+  width: 100%;
+  margin-bottom: -5px;
+  border-radius: 8px;
+}
+
+.profile-box .ex-icon {
+  height: 8%;
+  width: auto;
+  position: absolute;
+}
+.profile-box .info-button img {
+  height: 20px;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+.profile-box .add-points-button img {
+  height: 20px;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+
+.profile-box .info-button {
+  background-color: white;
+  margin-bottom: 2.7%;
+  height: 10%;
+  width: 16%;
+  position: absolute;
+  bottom:0;
+  margin-left:15.2%;
+  z-index: 2;
+  border-bottom-right-radius: 8px;
+}
+
+.profile-box .add-points-button {
+  background-color: gray;
+  margin-bottom: 2.7%;
+  height: 10%;
+  width: 16%;
+  position: absolute;
+  bottom:0;
+  z-index: 1;
+  border-bottom-left-radius: 8px;
+}
+body {
+  background-color:#57D9D5;
+}
