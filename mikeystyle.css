@@ -1,14 +1,15 @@
 navbar {
 	position:fixed;
 	bottom:0;
-	width:100%;
 	text-align:center;
 	border:1px solid gray;
-	max-width: 98%;
+	max-width: 100%;
 	background-color:gray;
+	width:100%;
+	left: -2px;
 }
 
-navbar div {
+navbar .navbar-div {
 	display:inline-block;
 	padding:8%;
 	border:1px solid black;
@@ -20,7 +21,7 @@ navbar div {
 
 }
 
-navbar img {
+navbar .navbar-image {
 	max-height:90px;
 	min-height:90px;
 	max-width:80px;
