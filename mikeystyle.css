@@ -1,0 +1,28 @@
+navbar {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align:center;
+	border:1px solid gray;
+	max-width: 98%;
+	background-color:gray;
+}
+
+navbar div {
+	display:inline-block;
+	padding:8%;
+	border:1px solid black;
+	border-radius: 25px;
+	background-color:#57D9D5;
+	padding:5%;
+	margin-left:1%;
+	margin-right:1%;
+
+}
+
+navbar img {
+	max-height:90px;
+	min-height:90px;
+	max-width:80px;
+	display:inline-block;
+}
