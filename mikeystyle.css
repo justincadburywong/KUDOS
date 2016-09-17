@@ -2,9 +2,9 @@ navbar {
 	position:fixed;
 	bottom:0;
 	text-align:center;
-	border:1px solid gray;
+	padding:5px;
 	max-width: 100%;
-	background-color:gray;
+	background-color:#505050;
 	width:100%;
 	left: -2px;
 }
@@ -12,7 +12,6 @@ navbar {
 navbar .navbar-div {
 	display:inline-block;
 	padding:8%;
-	border:1px solid black;
 	border-radius: 25px;
 	background-color:#57D9D5;
 	padding:5%;
@@ -26,4 +25,13 @@ navbar .navbar-image {
 	min-height:90px;
 	max-width:80px;
 	display:inline-block;
+}
+
+.headbar {
+	width:110%;
+	left: -2px;
+	margin-top:-8px;
+	position:fixed;
+	height:150px;
+	background-color:#505050;
 }
