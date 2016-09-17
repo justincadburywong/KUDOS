@@ -1,0 +1,19 @@
+.profile-box {
+  height: 32%;
+  width: 32%;
+  box-shadow: 10px 10px 5px #888888;
+  border: 2px;
+  border-radius: 8px;
+  margin: 8%;
+}
+
+.profile-box .home-image{
+  height: 100%;
+  width: 100%;
+  margin-bottom: -5px;
+  border-radius: 8px;
+}
+
+body {
+  background-color:#57D9D5;
+}
