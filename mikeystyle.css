@@ -17,7 +17,11 @@ navbar .navbar-div {
 	padding:5%;
 	margin-left:1%;
 	margin-right:1%;
+}
 
+#selected_div {
+	background-color:#009688;
+	border:2px solid black;
 }
 
 navbar .navbar-image {
