@@ -3,13 +3,23 @@ navbar {
 	bottom:0;
 	width:100%;
 	text-align:center;
+	border:1px solid gray;
+	max-width: 100%;
+	background-color:gray;
 }
 
 navbar div {
 	display:inline-block;
-	padding:5%;
+	padding:8%;
+	border:1px solid black;
+	border-radius: 25px;
+	background-color:#57D9D5;
 }
 
 navbar img {
-	max-height:40px;
+	max-height:60px;
+	min-height:60px;
+	max-width:60px;
 }
+
+
