@@ -1,0 +1,15 @@
+navbar {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align:center;
+}
+
+navbar div {
+	display:inline-block;
+	padding:5%;
+}
+
+navbar img {
+	max-height:40px;
+}
