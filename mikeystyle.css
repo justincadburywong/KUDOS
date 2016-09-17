@@ -1,11 +1,12 @@
 navbar {
 	position:fixed;
 	bottom:0;
-	width:100%;
 	text-align:center;
 	border:1px solid gray;
-	max-width: 98%;
+	max-width: 100%;
 	background-color:gray;
+	width:100%;
+	left: -2px
 }
 
 navbar div {
