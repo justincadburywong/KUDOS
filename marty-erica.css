@@ -24,7 +24,8 @@
 .profile-box .prof-name {
   color: #57D9D5;
   position: absolute;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
+  letter-spacing: 1px;
   margin: 25% 0 0 3%;
 }
 
@@ -37,6 +38,14 @@
   height: 20px;
   margin-left: 40%;
   margin-top: 5%;
+}
+
+.time-elapsed {
+  color:#54b4ff;
+  text-shadow: 1px 1px black;
+  letter-spacing: 1px;
+  position: absolute;
+  margin-left: 18%
 }
 
 .profile-box .info-button {
