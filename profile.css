@@ -5,7 +5,12 @@
   box-shadow: 10px 10px 10px #888888;
   border-radius: 200px;
 }
-
+.text-success {
+  color: #505050;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: bold;
+  text-align: center;
+}
 .profile-intro {
   width: auto;
   position: absolute;
@@ -19,6 +24,10 @@
   width: 100%;
   margin-bottom: -5px;
   border-radius: 200px;
+}
+
+.thumb {
+  width: 20px;
 }
 
 body {
