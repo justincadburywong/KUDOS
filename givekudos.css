@@ -1,11 +1,9 @@
 p {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-/*  color:white;
-  font-size:20px;*/
 }
 
 body {
-  background-color:#57D9D5;
+  background-color:#D3D3D3;
 }
 
 .profile-box {
@@ -13,7 +11,7 @@ body {
   width: 30%;
   box-shadow: 10px 10px 5px #888888;
   border: 2px;
-  border-radius: 8px;
+  border-radius: 200px;
   margin:1%;
 }
 
@@ -21,32 +19,44 @@ body {
   height: 100%;
   width: 100%;
   margin-bottom: -5px;
-  border-radius: 8px;
+  border-radius: 200px;
 }
 
 .profile-box .prof-name {
   color: white;
   font-size: 20px;
   position: absolute;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px white;
   letter-spacing: 1px;
-  margin: 28% 0 0 3%;
+  margin: 32% 0 0 6%;
+  color: #009688;
 }
 
 .give-kudos {
 	margin-left:10%;
-	margin-top:5%;
+	margin-top:9%;
 }
 
-form input[type=text] {
-	border:1px solid black;
+textarea {
+	border:1px solid #505050;
+	box-shadow: 10px 10px 5px #888888;
+	margin-left:-8%;
+	text-align:center;
+	border-radius:5px;
+	font-size:15px;
+	margin-bottom:-4%;
+	margin-top:-2%;
 }
 
-button {
+.give-kudos button {
 	border:1px solid #009688;
-	background-color:#64C16C;
-	border-radius:50%;
+	background-color:#57D9D5;
+	border-radius: 20px;
 	color:white;
 	font-size: 25px;
-	margin-left:2.5%;
+	height:60px;
+	width:260px;
+	margin-top:-40%;
+	margin-left:-8%;
+	box-shadow: 10px 10px 5px #888888;
 }
