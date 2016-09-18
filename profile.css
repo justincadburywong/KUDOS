@@ -25,9 +25,12 @@
   margin-bottom: -5px;
   border-radius: 200px;
 }
-
+.home-image {
+  box-shadow: 10px 10px 10px #888888;
+}
 .thumb {
-  width: 20px;
+  height: 50px;
+  margin-bottom: -10px;
 }
 
 body {
@@ -75,8 +78,6 @@ a {
 	   -moz-border-radius: 4px;
 	  	 -o-border-radius: 4px;
 			border-radius: 4px;
-      box-shadow: 4px 4px 6px #888888;
-
 }
 
 .blog-comment img.avatar {
@@ -106,6 +107,9 @@ a {
   box-shadow: 10px 10px 5px #888888;
 }
 
+.score {
+  color: #82b440;
+}
 .blog-comment .meta {
 	font-size: 13px;
 	color: #aaaaaa;
@@ -125,7 +129,6 @@ a {
 	padding-right: 15%;
 	padding-top: 40px;
 }
-
 
 .stats {
   background-color: #57D9D5;
