@@ -1,0 +1,35 @@
+body {
+  background-color: #57D9D5;
+}
+
+.title {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.challenge-background {
+  background-color: #FFFFFF;
+  /*color: #FFFFFF;*/
+}
+
+.event {
+  padding-left: 1%;
+  border-style: groove;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+#syrian-pic {
+  background-image: url("Syrian-refugees-landing.jpg");
+  opacity: 0.9;
+}
+
+#water-pic {
+  background-image: url("water-crisis.jpg");
+  opacity: 0.5;
+}
+
+#mental-pic {
+  background-image: url("woman-mental.jpg");
+  opacity: 0.5;
+}
