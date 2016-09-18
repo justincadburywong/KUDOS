@@ -5,10 +5,10 @@ h5,
 p,
 li {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #009688;
+  color:  gray;
 }
 li {
-  padding: 2%;
+  padding: 1%;
 }
 a {
   color: blue;
@@ -50,7 +50,7 @@ body {
 	background-color:#57D9D5;
 	border-radius: 20px;
 	color:white;
-	font-size: 25px;
+	font-size: 40px;
 	height:100px;
 	width:400px;
 	margin-top:-40%;
@@ -59,6 +59,16 @@ body {
 }
 
 .event {
-
+  background-color:white;
   padding: 2%;
+  border-radius: 50px;
+}
+
+.refugees {
+  width:104%;
+  margin: 165px 0 0 -10px;
+}
+
+.center {
+  text-align: center;
 }
