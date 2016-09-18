@@ -1,5 +1,6 @@
 body {
-  background-color: #57D9D5;
+  background-color: #D3D3D3;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .title {
@@ -9,14 +10,28 @@ body {
 
 .challenge-background {
   background-color: #FFFFFF;
-  /*color: #FFFFFF;*/
+}
+.challenge-font {
+  width: 90%;
+  margin: -2%;
 }
 
 .event {
-  padding-left: 1%;
+  padding-left: 5%;
   border-style: groove;
   border-color: #FFFFFF;
   color: #FFFFFF;
+  width: 400px;
+  height: 215px;
+  padding-bottom: 3%;
+}
+
+.progress {
+  position: absolute;
+  width: 5%;
+  height: 25%;
+  margin: -47% 0% 10% 83%;
+  opacity: 100%;
 }
 
 #syrian-pic {
@@ -26,10 +41,8 @@ body {
 
 #water-pic {
   background-image: url("water-crisis.jpg");
-  opacity: 0.5;
 }
 
 #mental-pic {
   background-image: url("woman-mental.jpg");
-  opacity: 0.5;
 }
