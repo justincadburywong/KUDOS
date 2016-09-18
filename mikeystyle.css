@@ -19,11 +19,6 @@ navbar .navbar-div {
 	margin-right:1%;
 }
 
-#selected_div {
-	background-color:#009688;
-	border:2px solid black;
-}
-
 navbar .navbar-image {
 	max-height:90px;
 	min-height:90px;
@@ -41,4 +36,9 @@ navbar .navbar-image {
 	text-align:center;
 	font-size:40px;
 	color:white;
+}
+
+#selected_div {
+	background-color:#009688;
+	border:2px solid black;
 }
