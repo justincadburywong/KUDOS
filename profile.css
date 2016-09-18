@@ -49,7 +49,8 @@ hr {
     border-top: 1px solid #FFFFFF;
 }
 a {
-    color: #82b440;
+    color: #57D9D5;
+    font-weight: bold;
     text-decoration: none;
 }
 .blog-comment::before,
@@ -136,8 +137,11 @@ a {
   color: white;
   border-radius: 20px;
   height: 40px;
-  width: 400px;
+  width: 500px;
   padding: 3%;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .blog-comment h3,
@@ -146,6 +150,11 @@ a {
 	font-size: 26px;
 	line-height: 30px;
 	font-weight: 800;
+}
+
+.clearfix {
+  width:130%;
+  margin-left: -15%;
 }
 
 p {
