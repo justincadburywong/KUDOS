@@ -39,16 +39,19 @@ navbar .navbar-image {
 }
 
 .hot-tile {
+	/*margin: 1%;*/
+	margin: 160px 1.5% 1.5% 1.5%;
 	top: 250px;
 	display: inline-block;
-	border: 1px solid black;
-	border-radius: 5px;
+	/*border: 1.5px solid black;
+	border-radius: 5px;*/
 	text-align: center;
 	font-weight: bold;
+	font-size: 18px;
 }
 
 .hot-pic {
-	height: 24%;
+	height:200px;
 	overflow: hidden;
 	position: center;
 }
