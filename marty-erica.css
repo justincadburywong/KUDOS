@@ -2,12 +2,12 @@ p {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .profile-box {
-  height: 32%;
-  width: 32%;
+  height: 44%;
+  width: 44%;
   box-shadow: 10px 10px 5px #888888;
   border: 2px;
   border-radius: 8px;
-  margin: 8%;
+  margin: 3%;
   float: left;
 }
 
@@ -19,30 +19,29 @@ p {
 }
 
 .profile-box .ex-icon {
-  height: 2%;
+  height: 4%;
   width: auto;
   position: absolute;
 }
 
 .profile-box .prof-name {
-  /*color: #57D9D5;*/
   color: white;
-  font-size: 20px;
+  font-size: 32px;
   position: absolute;
   text-shadow: 1px 1px black;
   letter-spacing: 1px;
-  margin: 25% 0 0 3%;
+  margin: 34% 0 0 3%;
 }
 
 .profile-box .info-button img {
-  height: 20px;
+  height: 50px;
   margin-left: 40%;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 .profile-box .add-points-button img {
-  height: 20px;
+  height: 45px;
   margin-left: 40%;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .time-elapsed {
@@ -50,29 +49,31 @@ p {
   text-shadow: 1px 1px black;
   letter-spacing: 1px;
   position: absolute;
+  font-size: 32px;
   margin-left: 18%
 }
 
 .profile-box .info-button {
   background-color: white;
   margin-bottom: 2.7%;
-  height: 2%;
-  width: 15.8%;
+  height: 3%;
+  width: 22%;
   position: absolute;
-  margin-top:-3.4%;
-  margin-left:15.7%;
+  margin-top:-5.3%;
+  margin-left:22.3%;
   border-bottom-right-radius: 8px;
 }
 
 .profile-box .add-points-button {
   background-color: #D3D3D3;
-  margin-bottom: 2.7%;
-  height: 2%;
-  width: 15.8%;
-  margin-top: -3.4%;
+  margin-bottom: 4%;
+  height: 3%;
+  width: 22.4%;
+  margin-top: -5.3%;
   position: absolute;
   border-bottom-left-radius: 8px;
 }
 body {
+  margin-top: 160px;
   background-color:#57D9D5;
 }
