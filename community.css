@@ -1,0 +1,14 @@
+.hot-tile {
+	margin: 160px 1% 1% 1%;
+	top: 250px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.hot-pic {
+	height:190px;
+	overflow: hidden;
+	position: center;
+}

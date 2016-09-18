@@ -38,21 +38,6 @@ navbar .navbar-image {
 	color:white;
 }
 
-.hot-tile {
-	top: 250px;
-	display: inline-block;
-	border: 1px solid black;
-	border-radius: 5px;
-	text-align: center;
-	font-weight: bold;
-}
-
-.hot-pic {
-	height: 24%;
-	overflow: hidden;
-	position: center;
-}
-
 #selected_div {
 	background-color:#009688;
 	border:2px solid black;
