@@ -12,3 +12,8 @@ Nelson Chen @supernelson
 Erica YingLing @eyingling02
 Mikey Moore @mikeymoore
 Marty McLaughlin @martymclaugh
+
+# USAGE
+
+This is a project developed for the Hack Against Violence, September 16th-18th 2016
+Hack-against-violence.org
