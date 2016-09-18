@@ -7,7 +7,13 @@
 <!-- <% stylesheet_link_tag "mikeystyle.css" %> -->
 <link rel="stylesheet" type="text/css" href="mikeystyle.css">
 
+<div class="headbar">
+<!-- This is where the title of the page selected would be displayed -->
+	<!-- <p>Challenges</p> -->
+</div>
+
 <body>
+<!-- this is for when we move into ruby on rails, so we can yeild in the other pages we are on -->
 	<!-- <%= yeild %> -->
 </body>
 
@@ -18,10 +24,11 @@
 	<div class="navbar-div">
 		<img class="navbar-image" src="profile.png" />
 	</div>
-	<div class="navbar-div" >
+	<div class="navbar-div">
 		<img class="navbar-image" src="community.png" />
 	</div>
-	<div class="navbar-div" >
+	<!-- the id is for the selected page, so the id will have to be removed and added to the specific navbar-div which correlates to which page the user is on -->
+	<div class="navbar-div" id="selected_div">
 		<img class="navbar-image" src="challenges.png" />
 	</div>
 </navbar>
